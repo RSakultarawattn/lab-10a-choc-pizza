@@ -53,10 +53,23 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+    flex-direction: row;
+    justify-content: baseline;
+    width: 90%
+}
+
+h3 {
+    font-size: .6em;
+}
+
+header-logo img {
+    width: 50%
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    width: 90%
 }
 
 footer {
@@ -80,9 +93,6 @@ h2 {
     animation: pulse 5s infinite ease-in-out;
 }
 
-header img {
-    height: var(--header-height);
-}
 
 
 
