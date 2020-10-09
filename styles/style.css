@@ -92,6 +92,10 @@ content {
 
 p {
     margin: var(--gutter);
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+   
 }
   
 footer {
