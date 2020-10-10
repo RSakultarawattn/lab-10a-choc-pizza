@@ -53,23 +53,58 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    float: left;
+    
 }
+header-logo {
+    position: relative;
+    float: left;
+    ;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: .6em;
+}
+
+
+
+.icons-one {
+    margin: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+
 
 footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
-}
-
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
 }
 
 .gutter-right {
@@ -80,9 +115,6 @@ h2 {
     animation: pulse 5s infinite ease-in-out;
 }
 
-header img {
-    height: var(--header-height);
-}
 
 
 
